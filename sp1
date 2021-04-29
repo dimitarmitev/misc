@@ -13,6 +13,6 @@
         </X509Data>
       </KeyInfo>
     </KeyDescriptor>
-    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://clientc-regix.egov.bg/is/EAuthCallbackV2" index="0" />
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://172.16.65.172:8180/auth/realms/FLIP/broker/eAuth2/endpoint" index="0" />
   </SPSSODescriptor>
 </EntityDescriptor>
