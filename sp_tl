@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" entityID="https://admin-regix.tlogica.com:8090/" cacheDuration="PT5M" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data><X509Certificate>MIIDuzCCAqOgAwIBAgITHwAAAFmi+9vb7X0JGAACAAAAWTANBgkqhkiG9w0BAQsFADBjMRMwEQYKCZImiZPyLGQBGRYDY29tMRcwFQYKCZImiZPyLGQBGRYHdGxvZ2ljYTEVMBMGCgmSJomT8ixkARkWBXJlZ2l4MRwwGgYDVQQDExNyZWdpeC1SRUdJWDItU1VCLUNBMB4XDTE5MTAwOTEyMjczNFoXDTI1MTAwOTEyMzczNFowRTELMAkGA1UEBhMCQkcxDTALBgNVBAoTBEVHT1YxJzAlBgNVBAMTHmNsaWVudC5yZWdpeDMudGVjaG5vbG9naWNhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANRVIVGc+V6oUVgSzCeh97JslsCiR7NyQayQZ0OqX35w4U4vfG3DWC8zBv6KdkgM0r3hOj14TJIyYDnnmKFBbaR0M+QcXIh4I88IaWfzPyTuBvMaR5Ub51PKZJWFWYuLUTvIfcFjFO8S7NSYCdGv8AKxmWD/GdXnUq1vkEMf6iNJ4LmG9ZYm7GYO90+Pwm0XjLOL9/wncJmk9ZU/xrBM3DJ/mPDu51hIyArX43v+7or9M4le3vhlKkhoGO+f5RABnItmZf/6EdzFhtXxXHuTjBWGoyp6pWEi9HNdLyQBUutxEa5rgLUE2SdJ6QnWrVmuGEFf4i5sq6jl0KHzfeEiwM0CAwEAAaOBhTCBgjALBgNVHQ8EBAMCAY4wIgYDVR0lAQH/BBgwFgYIKwYBBQUHAwIGCisGAQQBgjcKAwwwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUj9TtMoFliTobeAfUn1efv4C6I98wHwYDVR0jBBgwFoAUW2/aYN6G34RphIv1mHoroDjhICEwDQYJKoZIhvcNAQELBQADggEBAB0ykd4NF3Q2VJZwmra0FNN9+O/5rBKtVT6ZTJurNL47naWr+i57SUDN4F33bcYIQ/8S1v9IIW3XiXMGyzfS6Vj70yWo3s5kyatkzI3mykns1l5k0DoFA1PBrd+FgbrawhMT5T5KkQ0imfTRAh0OQy2/g3GjgznN9yKJ6Ban4KvoXfELXiN9/PT4Uawvf8pPzKagaXBZv7q2apdqfbxIa1EzYCa1BLHn+z0UYicHJkgs/R+SD6W1XZSgy3KavT7LWx4+qaKqLKJNpTRFCqpGGOkg0Bb9bNpR0Ms14mAAsJKccfWOht6oncMhfRyRqJpX1mOhsM8BUgwvn+QLVMn8oRU=</X509Certificate>
+          <X509IssuerSerial>
+            <X509IssuerName>CN=regix-REGIX2-SUB-CA,DC=regix,DC=tlogica,DC=com</X509IssuerName>
+            <X509SerialNumber>691323101619869442464882989073625728195493977</X509SerialNumber>
+          </X509IssuerSerial>
+          <X509SubjectName>CN=client.regix3.technologica.com,O=EGOV,C=BG</X509SubjectName>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://admin-regix.tlogica.com:8090/is/EAuthCallbackV2" index="0" />
+  </SPSSODescriptor>
+</EntityDescriptor>
