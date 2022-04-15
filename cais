@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" entityID="https://localhost:8090/" cacheDuration="PT5M" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIFXTCCA0WgAwIBAgIUMVNkJ6qTobuFdDeu8BnOWO7ccs4wDQYJKoZIhvcNAQELBQAwPjELMAkGA1UEBhMCQkcxDjAMBgNVBAgMBVNvZmlhMQ0wCwYDVQQKDARDQUlTMRAwDgYDVQQDDAdNSl9DQUlTMB4XDTIyMDQxNTEyMjMxNVoXDTMzMDMyODEyMjMxNVowPjELMAkGA1UEBhMCQkcxDjAMBgNVBAgMBVNvZmlhMQ0wCwYDVQQKDARDQUlTMRAwDgYDVQQDDAdNSl9DQUlTMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsKak9UiSDASzzKCLTIRXdhjXtyCxSZzYD4LpRUDYZULJRaA5xmS6IPvWqjVCVsWeLanzyPWbDvRQHsETOtMhYwZ+QmtBBv9THjW2rCdD3h29oIM6EmHpSGRNqEiXou0Ht1hxMv11GNj/4d4CTfwoGNikSbu7zp1GCo2MAujHMob7a738DydZTkR+SQiNmBNZ1rBqKEOx5XCI/wLFCltskaKkJmppy0oe/ynDg+T4FxvbGRxRI0Wp+7xU35zGmWh2ULBfy5Ccvv9iU06bwjNnulFNJwkh7OQvWuYDUJIB6PIBb42tkk7of+0RuWdqSWL0FwdEAchIyaBKuGRkNjdU88Ki4FitJW+90jfAZvEVEQneLqpwHwHkIx/VrqZspfO2RstyQ5rP+grKweQ6fB9eB4k2JmwVxcIaV4/MwX4J8apsaktHpFGmuKGajPiOvH4UeQl47yl8DKeIDKjbVqTLNYgEUPKMnASIrRb2W3l2YkpKuFfubCFUgNmExryb38eU8kzk7uyooEOKxowUfQd3JyVp19nT2lQOpBrUDb3Lqc6bjI74wRTksN8GBpQs3K1O8aMesIhcS4wAmpIQeIFUbsbApmvonHUjlhEN5gJHFOFE/SNVOpKmHitCMgQwvUCEg+dmuVLC1o1aQBhStKn9Fkl/mc7u28QJmS8B8LNPaMsCAwEAAaNTMFEwHQYDVR0OBBYEFPU7Q5JU//bpz1FxPfY57bckzvbkMB8GA1UdIwQYMBaAFPU7Q5JU//bpz1FxPfY57bckzvbkMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAB3/RuxAty04fNN9XHrcVJLx0RaLxu1gEoeCyPxj0fuYv+p8XNmYyFyJ5H9acQpd2BTZ4gmOk9xevFeMjFlSQ4cOO7UEpc046wJWYJt24cfpUC/+VppZEM238VxoGM0ebGYIOMFwcUtF2AKHo4UkjqXHpK3YWn6VPebcB9fwfl+8FB1ILf/AWqfBtg0lsuQPsM2iztKEBOXMkQ9a7P0Mmm0hKX95qagJghBywUfJceFsHEk/o+iHWFshDSOUe4q59X19yzznMo7xzasZAQAwe/W40T1B3y2R7OmNa6TNurL9Y+CbxZEVSv5cd4GuDWNLj5oNUQlBsJKjiYNnq/5kXZ9TiZZr0PJ83di5JsJQ6J985Ark+fVu2YTmr4kMUmKHJPbzHU2ts5NcyjuFs5NamE8sISyvpwn0w99OmE72X9+lYkwCn8bi61bR0QCzPbnz1N0T64sqm+Ew3AoL2Bq0ajGwuYmujV8XQ+BkH/7x7Xxh9PHZ0mdsPBxVF2/EHbbqOZOTcLoyso2GF7LQUnuDQhWHkmge90gbyE2WsHL4NBfyzg0I6dtHQ6+QEtzj0/RGrRGdagbMBfaiAI0BPTac1E8P3SGbzsKQQ1Z2Kr32+oRKz4VuSsAESCDT2cbBFHo0h5vj1KMELC8y/JRS1ZDDVbGv4aptIF9Sa23vqEEHagst</X509Certificate>
+          <X509IssuerSerial>
+            <X509IssuerName>CN=MJ_CAIS</X509IssuerName>
+            <X509SerialNumber>281600234348186971595991152890206676654908797646</X509SerialNumber>
+          </X509IssuerSerial>
+          <X509SubjectName>CN=MJ_CAIS</X509SubjectName>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8090/is/EAuthCallbackV2" index="0" />
+  </SPSSODescriptor>
+</EntityDescriptor>
