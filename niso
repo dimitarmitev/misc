@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" entityID="https://172.31.12.154" cacheDuration="PT5M" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data><X509Certificate>MIID2zCCAsOgAwIBAgITHwAAAFtyTnfT8H4OogACAAAAWzANBgkqhkiG9w0BAQsFADBjMRMwEQYKCZImiZPyLGQBGRYDY29tMRcwFQYKCZImiZPyLGQBGRYHdGxvZ2ljYTEVMBMGCgmSJomT8ixkARkWBXJlZ2l4MRwwGgYDVQQDExNyZWdpeC1SRUdJWDItU1VCLUNBMB4XDTIwMDMyOTA1MjYzOVoXDTI1MTExMTE5MjE0M1owRDELMAkGA1UEBhMCQkcxDTALBgNVBAoTBEVHT1YxJjAkBgNVBAMTHWRtaXRldi1uYi5yMy50ZWNobm9sb2dpY2EuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7rECDSuEgIrHU22cf0vzrmwilNxrgfvAihY9RCfACVluqiGXo19lChREgcbdlzGRg5QmnKII8tW5jJCfX1gbrVKmqqTHfwZliTSXakRtRsK11Hm4lTIOAhP7ZLNjix/wCU+Xqrg+jOvcim+dBj+FrBgy3b7hpA/ZBzsNi2dpDd+iU2IIpWPbpyH+/GvV01sZUQTJcwqB/oxVyj9eKJ5egkeUH41plxbbspp2/lz3G1U6a1mv3lGS3Qr6qyalv0eMlO/QXXw84eGEdXaUr4lVRm2C4lNHAyuLXFiyhbxgF9+wJwSRnKTTAe1+Ip8nlBxwk/upiYHTuB1J+WL6a+UzvQIDAQABo4GmMIGjMAsGA1UdDwQEAwIBjjAiBgNVHSUBAf8EGDAWBggrBgEFBQcDAgYKKwYBBAGCNwoDDDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBSHVBolBWeBBxMwoQLKq2488+Q6BTAfBgNVHSMEGDAWgBRbb9pg3obfhGmEi/WYeiugOOEgITAfBgkrBgEEAYI3FAIEEh4QAEMAbwBtAHAAdQB0AGUAcjANBgkqhkiG9w0BAQsFAAOCAQEAVBp12BInZ2PgNDer8fbft8CCL/3dWoXKInJqHpQawVy+S7hJZJ/I7ltNgIpqDdCCy9GJ9TrRf6YWf6CMRIC1qSCnUqMPB+/XWuIjXNeAhaCpzhCE7pzHNUO0fdYq8ZPYnzfua83wjmxNSFbUffkLxuMizgTPfBnNQ0kmR0LvkpfxkH9YwZF3G+2ElKUL1n7pxVjkpbS2Cy1CXA6ysmSKK8GcbphoVXIcLbqpZXYAwdRHp11rXuX06ukDBJSlNbbmNtRj2+Z3yp2eDGevtlEYfLwWaXn9PKdgUsL0tlEZ/1DwZnUKuA9emioQhXZH22Wus+3vPl5P8kqWXHQNmXSRoQ==</X509Certificate>
+          <X509IssuerSerial>
+            <X509IssuerName>CN=regix-adapters-root-CA,DC=regix,DC=egov,DC=bgCN=regix-REGIX2-SUB-CA,DC=regix,DC=tlogica,DC=com</X509IssuerName>
+            <X509SerialNumber>691323101629266743090704193673833863433945179</X509SerialNumber>
+          </X509IssuerSerial>
+          <X509SubjectName>CN=dmitev-nb.r3.technologica.com,O=EGOV,C=BG</X509SubjectName>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://172.31.12.154/is/EAuthCallbackV2" index="0" />
+  </SPSSODescriptor>
+</EntityDescriptor>
