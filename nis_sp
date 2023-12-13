@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" entityID="https://keycloak.technologica.com" cacheDuration="PT5M" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIICmzCCAYMCBgGMY1haUzANBgkqhkiG9w0BAQsFADARMQ8wDQYDVQQDDAZtYXN0ZXIwHhcNMjMxMjEzMTMyMTIzWhcNMzMxMjEzMTMyMzAzWjARMQ8wDQYDVQQDDAZtYXN0ZXIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCaTtdmpMnt1SPUn9MLBxHlK9WNvME2Q5IMKTtA35wb46VlAtAfcX1gzx0cZXj89VOGFfzvziFSrvyM3O+TxBEaJpDn85hSpkFCJgyKRxmk69ss6iczkN9BZQnEN43TYthgYTAhDH274pXK224E7+nlBMMJrhKvgPkTMte8982WIZOWKaoxHxvzr9pb/hh7XxlVgMy/nfDcCEIDlCYJyC5JpE/SDi6AmFdXxM+apqbGi/YEoPYmkLuWDpymVLjPaPrxJUCgnwVo5RVUmm+ZAVBfQEgTPGmGPXL4SiCRWDeQXXwAJOjuQk9aslBAVa4SkkXu4rekcDGBAN40D1m15FX7AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAG8icatZ/QjPDrLmj4Mhbb3Oc25695oixTdObPe1Fwl7ER9rKFvGBxsq735GjoV30WdD+AeDBwDun1S2s96Pt71HXQGw0MA1Kwpv1AkEG9ndFfCtX7zDnqMu5xUBlMO1jWfn/A9mdV2oIHGEXziPwLrOd9RorhQd3/he4Bwk2AKsaN85m+F3dSaaislG6Q0b+PHqKrct7kjPjg3rQvop74z1hvB2iB1vuIDAKxIbi8LqvNHFy/O1t+SfoKNjqbiyczHwCCwF+pyEhwwjxjARA2Bz4z+esg61A+ScAXZx2mGlqf828HCsWcKYXJEijC+hDUzc4Cf6meHHmULAcNyB0/w=</X509Certificate>
+          <X509IssuerSerial>
+            <X509IssuerName>CN=master</X509IssuerName>
+            <X509SerialNumber>1702473783891</X509SerialNumber>
+          </X509IssuerSerial>
+          <X509SubjectName>CN=master</X509SubjectName>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:4200/auth/realms/FLIP/broker/eAuth2/endpoint" index="0" />
+  </SPSSODescriptor>
+</EntityDescriptor>
+
+
