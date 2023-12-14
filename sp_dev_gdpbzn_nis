@@ -1,0 +1,29 @@
+<md:EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    entityID="https://kc-gdpbzn-nis.technologica.com/auth/realms/NIS"
+    ID="ID_c35bfcc1-d127-4e04-b399-5a61b6b2167a">
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+        AuthnRequestsSigned="true" WantAssertionsSigned="false">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:KeyName>6Q8kE9_F0pes__M7wLlc2ChVnphL3WLpDPcavDr7Tqw</ds:KeyName>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIClTCCAX0CBgGKULD0zzANBgkqhkiG9w0BAQsFADAOMQwwCgYDVQQDDANOSVMwHhcNMjMwOTAxMTIxOTQ4WhcNMzMwOTAxMTIyMTI4WjAOMQwwCgYDVQQDDANOSVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZK98ZYKhc3BiPPGjasPYdmtk9Z8IWWjQUhZTbp4t/azwtCx+t3prZZ82AAR8icx7j25e2TOwIXR6Wo4xX+6SyExJvWHekN6a/1MeduP/K6hkkIQd6s5FX/HlQ/+/+1QXj/Vq6LpnXPElYiXFWJVebsz+yDD3YNLdGWEXReBvqnY9KLqFPaWm9e8lR3F8G4gtguu+rKOKq/TfHqRrPpT2LNQPkhs0tdLDtOQSHFs/0mz7mGNMWKaQPa2bThWOw3TavtGaSNlCpNrxFWY0Q7Qg4Cza6L4I3mH6Vre0QYUaRe4bTN6uDONnOGhJEuefuQ03iYxRhCLP6tTifvajAivlRAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAA+dXWyHXFhI3cEn3ZVQtE6pzoonnA7FVKdRETpjB1jSucMb1sLpt5LBgW6sDMplCcETz3pOq3hKqe3NdSPzcMy0f40j+MGsW9PjTHhjc0rGxkXy1pOZcIft1DsxUvM23uLlMddRCWL8GPxcLoeDJRI/mm+qKmomZKDJrZhNXQPSo3hwY1JCpeZqmOoT+nDm4izpeo0dN1G8sbNB6v4XTV4fhUZBZ9pJyKtlcVDv62agMuEDpzq/p8Tm8mMgc5do9vB+ni/lmieymeC22RX4+ozO7qx6WpyTFHyrWN7eLkQbz2NLPc/DjAlnCDiYU1KRHNSPjzxSKxBS+OUZU4BAMiQ=</ds:X509Certificate>
+                </ds:X509Data>
+                <ds:X509IssuerSerial>
+                    <ds:X509IssuerName>CN=NIS</ds:X509IssuerName>
+                    <ds:X509SerialNumber>1693570888911</ds:X509SerialNumber>
+                  </ds:X509IssuerSerial>
+                <ds:X509SubjectName>CN=NIS</ds:X509SubjectName>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://gdpbzn-nis.technologica.com/auth/realms/NIS/broker/EAuth/endpoint"></md:SingleLogoutService>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://gdpbzn-nis.technologica.com/auth/realms/NIS/broker/EAuth/endpoint"
+            isDefault="true" index="1"></md:AssertionConsumerService>
+    </md:SPSSODescriptor>
+</md:EntityDescriptor>
